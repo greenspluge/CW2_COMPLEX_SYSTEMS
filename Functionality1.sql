@@ -1,0 +1,1 @@
+--var=id=$ratinginput -q 'use cw2database; SELECT COUNT(reviews.gplaceuserid) from reviews where rating = ${var:id};'
